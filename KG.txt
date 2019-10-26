@@ -1,0 +1,13 @@
+git config --global http.proxy http[s]://student:student@proxy.sttec.net:3128      //Настройка прокси
+git init         //Инициализация репозитория
+git status     //Просмотр репозитория
+git add .      //Добавление новых файлов в репозиторий
+git remote add origin https://github.com/@UsernameGitHub@/@NameRepository@.git   //Создание подключения к удаленному репозиторию
+git push -u origin master   //Загрузка файлов на удаленный репозиторий
+git commit –m “комментарий”     //Создание коммита с комментарием
+git clone ссылка_на_ваш_удаленный_репозиторий   //Загрузка файлов с удаленного репозитория  
+git checkout код_коммита    //Переход к коммиту
+git checkout -b iss53       //Создание новой ветки и переход на неё
+git log     //Вывод всех коммитов
+git checkout master    //Переход на ветку мастер
+git branch       //Просмотр всех веток в репозитории
